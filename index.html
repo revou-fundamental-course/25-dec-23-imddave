@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-name">
+        <h1>Welcome To Katik</h1>
+        <p>Hai Sobat, Selamat datang di Katik :]</p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar segitga</p>
+    </div>
+    <div class="container">
+        <div class="luas-segitiga">
+            <h2>LUAS SEGITIGA</h2>
+            <img src="https://imgix2.ruangguru.com/assets/miscellaneous/png_sw37h0_7684.png" alt="gambar-segitiga">
+            <p>Rumus Luas Segitiga yaitu :</p>
+            <p>L = 1/2 x AB x t</p>
+            <p>Di mana:</p>
+            <p>L = Luas</p>
+            <p>AB = Alas</p>
+            <p>t = tinggi</p>
+            <h3>Hitung Luas Segitiga</h6>
+            <input type="number" id="alas" placeholder="Alas">
+            <br>
+            <br>
+            <input type="number" id="tinggi" placeholder="Tinggi">
+            <br>
+            <p id="hasil-luas"></p>
+            <br>
+            <button id="hitung-luas" onclick="luas()">Hitung</button>
+            <br>
+            <br>
+            <button id="reset-luas" onclick="resetLuas()">Reset</button>
+            <br>
+            <br>
+        </div>
+        <div class="keliling-segitiga">
+            <h2>KELILING SEGITIGA</h2>
+            <img src="https://imgix2.ruangguru.com/assets/miscellaneous/png_sw37h0_7684.png" alt="gambar-segitiga">
+            <p>Rumus Keliling Segitiga yaitu :</p>
+            <p>K = AB + BC + CA</p>
+            <p>Di mana:</p>
+            <p>K = Keliling</p>
+            <p>AB = Sisi 1</p>
+            <p>BC = Sisi 2</p>
+            <p>CA = sisi 3</p>
+            <h3>Hitung Keliling Segitiga</h6>
+            <input type="number" id="sisi1" min="1" placeholder="Sisi 1">
+            <br>
+            <br>
+            <input type="number" id="sisi2" min="1" placeholder="Sisi 2">
+            <br>
+            <br>
+            <input type="number" id="sisi3" min="1" placeholder="Sisi 3">
+            <br>
+            <p id="hasil-keliling"></p>
+            <br>
+            <button id="hitung-keliling" onclick="keliling()">Hitung</button>
+            <br>
+            <br>
+            <button id="reset-keliling" onclick="resetKeliling()">Reset</button>
+            <br>
+            <br>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+}
+
+.app-name{
+    font-family: serif;
+    text-align: center;
+} 
+
+.app-name h1 {
+    background-color: greenyellow;
+    border-bottom: solid;
+    border-top: solid;
+}
+
+.app-name p {
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.container{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h2{
+    background-color: steelblue;
+    color: whitesmoke;
+    text-align: center;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: black;
+    font-family: serif;
+}
+
+img {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+p, h3{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+h3{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+input, button {
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5%;
+}
+
+#hitung-luas, #hitung-keliling {
+    padding: 10px 25px;
+    font-size: larger;
+    color: white;
+    background-color: cornflowerblue;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#reset-luas, #reset-keliling {
+    padding: 10px 25px;
+    font-size: larger;
+    color: white;
+    background-color: red;
+    margin-left: 80%;
+}
